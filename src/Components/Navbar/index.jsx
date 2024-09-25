@@ -9,7 +9,7 @@ const Navbar = ({ propsNavList }) => {
                 </div>
                 {propsNavList.map((item, index) => (
                     <div key={index}>
-                        <h1>{item}</h1>
+                        <h1 className="hover:underline">{item}</h1>
                     </div>
                 ))}
 

@@ -5,7 +5,7 @@ import Secondcontent from "./Components/Secondcontent"
 
 
 const App = () => {
-  const navList = ["Paket Travel", "Hubungi Kami", "Login"]
+  const navList = ["Paket Travel","Pembimbing", "Hubungi Kami", "Login"]
   const heroList = ["Foto", "Text"]
   const content = [
     {

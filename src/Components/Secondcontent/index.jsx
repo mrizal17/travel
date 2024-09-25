@@ -2,11 +2,14 @@ const Secondcontent = ({ propsSecondContent }) => {
     console.log(propsSecondContent)
     return (
         <>
-        <div>
+         <div className="bg-black text-gray-50 items-center text-center h-9">
+                <h3 className="py-1">Ustadz Pembimbing</h3>
+            </div>
+        <div className="flex flex-col justify-center gap-3 items-center rounded overflow-hidden shadow-lg bg-[#E5D9F2]">
             {propsSecondContent.map((data, index) => (
-                <div key={index}>
-                    <img src={data.image} alt="" />
-                    <h1>{data.name}</h1>
+                <div key={index} className="bg-[#36BA98] p-5 rounded-lg">
+                    <img src={data.image} alt="" className="h-64" />
+                    <h1 className="bg-slate-200 rounded-md py-2 px-4 text-center">{data.name}</h1>
                 </div>
             ))}
         </div>
