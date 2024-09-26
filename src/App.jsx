@@ -2,6 +2,7 @@ import Content from "./Components/Content"
 import Herosection from "./Components/Herosection"
 import Navbar from "./components/Navbar"
 import Secondcontent from "./Components/Secondcontent"
+import Footer from "./Components/Footer"
 
 
 const App = () => {
@@ -56,6 +57,20 @@ const App = () => {
       name: "Ustadz 5",
     }
   ]
+  const footer = [
+    {
+      item1: "Our Social Media",
+      item2: "Instagram",
+      item3: "Facebook",
+      item4: "Twitter",
+    },
+    {
+      item1: "Contact Us",
+      item2: "Email",
+      item3: "Phone",
+      item4: "Address",
+    },
+  ]
 
   
   return (
@@ -64,6 +79,7 @@ const App = () => {
       <Herosection propsHeroList={heroList}/>
       <Content propsContent={content}/>
       <Secondcontent propsSecondContent={secondContent} />
+      <Footer propsFooter={footer}/>
     </>
   )
 }
