@@ -3,7 +3,7 @@ const Navbar = ({ propsNavList }) => {
 
     return (
         <>
-            <div className="flex items-center gap-3 justify-between text-[7px] px-6 bg-slate-200">
+            <div className="flex items-center gap-3 justify-between text-[7px] px-6 bg-slate-200 md:text-base lg:gap-1 ">
                 <div>
                     <img src="/image/logo.png" className="w-8 ml-3 " alt="" />
                 </div>

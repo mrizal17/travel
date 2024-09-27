@@ -11,24 +11,24 @@ const App = () => {
   const content = [
     {
       name: "PAKET 1",
-      price: "35jt",
+      price: "32jt",
       image: "./image/paket 1.png",
       button: "Daftar Sekarang"
     },
     {
       name: "PAKET 2",
-      price: "32jt",
+      price: "35jt",
       image: "./image/paket 2.png",
       button: "Daftar Sekarang"
     },
     {
       name: "PAKET 3",
-      price: "30jt",
+      price: "40jt",
       image: "./image/paket 3.png",
       button: "Daftar Sekarang"
     },
     {
-      name: "PAKET PREMIUM",
+      name: "PAKET 4",
       price: "45jt",
       image: "./image/paket 4.png",
       button: "Daftar Sekarang"

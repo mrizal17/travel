@@ -2,7 +2,7 @@ const Footer = ({ propsFooter }) => {
     console.log("ini footer", propsFooter)
     return (
         <div>
-            <div className="flex gap-16 justify-center bg-black text-white">
+            <div className="flex gap-16 bg-black text-white md:gap-28 p-2">
                 {propsFooter.map((data, index) => (
                     <div key={index}>
                         <div className=" gap-2 grid-cols-2">
