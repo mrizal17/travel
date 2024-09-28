@@ -5,7 +5,7 @@ const Secondcontent = ({ propsSecondContent }) => {
          <div className="bg-black text-gray-50 items-center text-center h-9 md:text-2xl">
                 <h3 className="py-1 md:pb-4">USTADZ PEMBIMBING</h3>
             </div>
-        <div className="p-4 flex flex-col md:flex-row justify-center gap-3 items-center rounded overflow-hidden shadow-lg bg-[#E5D9F2]">
+        <div className="p-4 flex flex-col md:flex-row justify-center gap-3 items-center rounded overflow-hidden shadow-lg md:gap-16 bg-[#E5D9F2]">
             {propsSecondContent.map((data, index) => (
                 <div key={index} className="bg-[#36BA98] p-5 rounded-lg">
                     <img src={data.image} alt="" className="h-64 md:h-28" />

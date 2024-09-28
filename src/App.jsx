@@ -1,6 +1,6 @@
 import Content from "./Components/Content"
 import Herosection from "./Components/Herosection"
-import Navbar from "./components/Navbar"
+import Navbar from "./Components/Navbar"
 import Secondcontent from "./Components/Secondcontent"
 import Footer from "./Components/Footer"
 
